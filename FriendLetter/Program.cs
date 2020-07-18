@@ -9,7 +9,7 @@ namespace FriendLetter
     {
       var host = new WebHostBuilder()
         .UseKestrel()
-        .UseContentRoot(Directory.GetCurrentDirectory()
+        .UseContentRoot(Directory.GetCurrentDirectory())
         .UseIISIntegration()
         .UseStartup<Startup>()
         .Build();
