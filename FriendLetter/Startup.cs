@@ -20,8 +20,6 @@ namespace FriendLetter
 
     public void ConfigureServices (IServiceCollection services)
     {
-
-      //Old
       services.AddMvc();
 
     }
