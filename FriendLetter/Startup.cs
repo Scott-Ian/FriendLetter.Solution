@@ -26,6 +26,8 @@ namespace FriendLetter
 
     public void Configure (IApplicationBuilder app)
     {
+      app.UseDeveloperExceptionPage();
+
       app.UseMvc(routes =>
       {
         routes.MapRoute(

@@ -21,7 +21,7 @@ namespace FriendLetter.Controllers
     }
 
     [Route("/form")]
-    public ActionResult Form() { return view();}
+    public ActionResult Form() { return View();}
 
     [Route("/postcard")]
     public ActionResult Postcard(string recipient, string sender)
